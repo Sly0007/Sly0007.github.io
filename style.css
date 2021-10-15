@@ -1,0 +1,112 @@
+Header {
+  Position: relative;
+  width:1200px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  position: absolute;
+  width: 1200px;
+  z-index: -1;
+}
+
+#fejlec {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  margin-top: 225px;
+  margin-bottom: 50px;
+
+}
+
+#fejlec h2{
+  
+  font-size:30px;
+  margin: 0;
+  padding: 0;
+  }
+
+#fejlec h1{
+  font-size:60px;
+  margin: 0;
+  padding: 0;
+  }
+main {
+  width:800px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size:21px;
+  line-height: 35px;
+}
+
+blockquote {
+  width:800px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  background-color: #6e6e6e;
+  color: white;
+  font-size:50px;
+  font-family: 'Abril Fatface', cursive;
+}
+blockquote::before {
+  content: '”';
+  font-weight: bold;
+  font-size:80px;
+  }
+
+.magasabb {
+  height: 130px;
+  text-align: center;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom:0;
+  list-style-type: square;
+}
+
+.ulbetu {
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  margin-bottom: 20px;
+}
+
+.szoveg {
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  margin-top: 0;
+}
+
+.upcase {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.intrest {
+  border-top: 3px solid #222;
+}
+
+H3 {
+  margin-bottom: 0;
+}
+
+H4 {
+  margin-top: 0;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 10px;  
+}
+
+#intupc {
+  margin-top: 40px;
+}
